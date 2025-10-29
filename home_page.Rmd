@@ -1,0 +1,30 @@
+---
+title: "Home Page"
+output: 
+  html_document:
+---
+
+For this problem, I created a personal academic website hosted at [**https://juantang.github.io**](https://juantang.github.io) The website introduces my academic background, research experience, and professional interests in biostatistics and biotechnology.
+
+------------------------------------------------------------------------
+
+### Home Page
+
+The landing page provides a brief introduction of who I am. I am a Master of Science student in Biostatistics at *Columbia University Mailman School of Public Health*, with a strong foundation in **biochemistry**, **biology**, and **data analysis**.
+
+#### Contact Information
+
+**Email:** [juan.tang2018\@gmail.com](mailto:juan.tang2018@gmail.com){.email} \| **Mobile:** +1 (646) 325-8958
+
+### Resume Page
+This page summarizes my academic background and professional experience:
+
+- [Resume](resume.html)
+
+### Quick Links
+
+- [GitHub](https://github.com/juantang36)
+
+- [Email: jt3649@cumc.columbia.edu](mailto:jt3649@cumc.columbia.edu)
+
+------------------------------------------------------------------------

@@ -1,0 +1,21 @@
+name: "Juan Tang Website"
+output_dir: "docs"
+
+navbar:
+  title: "Juan Tang"
+  left: 
+    - text: "Home" 
+      href: index.html 
+    - text: "Resume" 
+      href: resume_page.html
+  right:
+    - icon: fa-github
+      href: "https://github.com/juantang36"
+    - icon: fa-envelope
+      href: "mailto:jt3649@cumc.columbia.edu"
+
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true

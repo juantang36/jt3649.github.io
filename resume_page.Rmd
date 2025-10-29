@@ -1,0 +1,97 @@
+---
+title: "Resume"
+output: html_document
+---
+#### Education
+
+**Columbia University, Mailman School of Public Health, M.S. in Biostatistics** (09/2025 - 05/2027)
+
+-   Relevant Coursework: Data Science, Probability, Biostatistical Methods
+
+**Brandeis University, School of Arts and Science, B.S. in Biochemistry & Biology, Minor in Psychology** (08/2021 - 05/2025)
+
+-   GPA: 3.93/4.0
+-   Honors: Dean’s List
+-   Relevant Coursework: Genetics and Genomics, Advanced Biochemistry: Cellular Information Transfer Mechanisms, Physical Chemistry of Macromolecules, Multi-variable Calculus
+
+#### Experience
+
+**Tripllen Information Technology (Shanghai) Ltd.**
+
+*Data Technology Intern* (05/2024 – 08/2024)
+
+-   Integrated Retrieval-Augmented Generation (RAG) with Langchain-Chatchat to enhance large language model (LLM) performance in addressing biological queries
+
+-   Analyzed and optimized RAG for science-specific prompts by applying fine-tuning, prompt engineering, and tokenization techniques, reducing data hallucination rates by 15.7% and increasing response precision to diverse user inputs
+
+-   Developed AI agents leveraging RAG to access knowledge bases for practical applications, including automotive customer support and personalized recommendations. Further improved LLM capabilities by modifying agent architecture
+
+-   Contributed to Roche Pharmaceuticals’ drug information system by integrating AI and big data to develop a Q&A system, streamlining access to critical drug data and improving research efficiency
+
+**WuXi Biologics**
+
+*Quality Assurance Intern* (05/2023 - 08/2023)
+
+-   Co-reviewed lab records and conducted data analysis in examining experimental deviations. Proposed possible improvements to streamline experimental procedures in increasing both accuracy and reliability
+
+-   Facilitated document control by translating, reviewing, and approving critical documents like SOPs and batch records, ensuring timely updates and adherence to quality standards, enhancing the review and approval rate by 25%
+
+-   Oversaw quality audits by operating the MasterControl platform to maintain strict compliance with regulatory requirements and identify areas for improvement
+
+-   Streamlined information management by recording and maintaining up-to-date departmental records. Improved data access and retrieval efficiency by 35% to facilitate rapid access to crucial information that supported informed decision-making and operational excellence
+
+#### Research and Projects
+
+**Catalysis Project: Optimization of Reactions**
+
+*Student Researcher*, Brandeis Organic Chemistry Lab, Supervised by Prof. Murray (01/2023 - 05/2023)
+
+-   Optimized catalytic reactions by adjusting bases, reaction times, and substrates, utilizing techniques such as column chromatography, melting point analysis, NMR, and IR spectroscopy to analyze and verify product purity and yields
+
+-   Conducted Metathesis reaction experiments at varied time intervals (20, 40, 60 minutes), and identified 40 minutes as optimal with 98.47% trans-stilbene yield through product analysis
+
+**Mutation Affects the Refolding Conformation and Increases the Thermal Stability under Iron-induced Condition of Human Gamma-D Crystallin**
+
+*Student Researcher*, Brandeis Biology Lab, Supervised by Dr. Piasta (08/2022 - 12/2022)
+
+-   Conducted collaborative research into the pQE.1-CRYGD gene, and investigated the effect of the S109A point mutation on Human gamma-D Crystallin, pointing to potential advances in cataract treatment strategies
+
+-   Used PyMOL for molecular modeling to identify critical amino acids for structural alteration in Human γD Crystallin
+
+-   Designed mutant primers and employed site-directed mutagenesis technique to generate mutant pQE.1-CRYGD plasmid
+
+-   Executed thermal stability assays (TSA) on Human gamma-D crystallin with S109A mutation, revealing no significant impact on melting points under standard conditions but increased stability in iron-induced environments
+
+-   Analyzed protein refolding behavior using trypsin digest assays, which highlighted different refolding patterns for the S109A mutant versus the wild-type, as evidenced by altered band intensities
+
+**Pharmaceutical Engineering Research Program**
+
+*Student Researcher*, Supervised by Professor J. Axel Zeitler (05/2022 - 06/2022)
+
+-   Examined oral solid dosage form design, processing, and quality control principles and applications
+
+-   Presented research on Distinct Element Method (DEM) based powder modeling and automation platforms in drug synthesis
+
+-   Explored the potential of Artificial Intelligence in addressing pharmaceutical industry challenges through applications like drug discovery, clinical trial design, quality control, and personalized manufacturing
+
+#### Conference
+
+**Tang, J. (2022). Atopic Dermatitis: Mechanism and Topical Treatment Strategies. In Proceedings of the 2022 International Conference on Biological Engineering and Medical Science (ICBioMed 2022).**
+
+*Accepted* (07/2022)
+
+-   Analyzed various topical treatment strategies for atopic dermatitis by synthesizing immunological mechanisms, genetic factors, and experimental data from a wide range of studies
+
+-   Compared the therapeutic mechanisms of topical corticosteroids, calcineurin inhibitors, and phosphodiesterase inhibitors, highlighting their pathways in regulating inflammatory cytokine synthesis and skin barrier function
+
+-   Recommended strategic application of various medications to optimize effectiveness and minimize side effects, tailored to the severity of AD symptoms and individual patient conditions
+
+#### Skills
+
+-   **Software**: Python, R, SPSS, Microsoft Office Suite, PyMOL, and Logger Pro
+
+-   **Laboratory Skills**: Gas/Column chromatography, IR, NMR, PCR/qPCR, Protein gel electrophoresis, DNA purification, molecular modeling
+
+-   **Language**: Mandarin, English (IELTS 7.5)
+
+-   **Certificate**: Adult and Pediatric First Aid/CPR/AED (conducted by American Red Cross)
