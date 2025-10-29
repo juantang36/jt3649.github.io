@@ -1,0 +1,85 @@
+---
+title: "Instacart Orders Dashboard"
+output: 
+  flexdashboard::flex_dashboard: 
+    orientation: rows
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+
+data("instacart") # load the instacart dataset
+```
+
+Column {data-width=650}
+
+### Plot 1: Top 10 Most Popular Products (Bar Chart)
+```{r bar chart}
+top_products = instacart |>
+  count(product_name, sort = TRUE) |>
+  slice_head(n = 10) # select only the top 10 products
+plot_ly(top_products, 
+        x = ~reorder(product_name, n), # reorder products by order count (x axis is the product)
+        y = ~n, # y axis is the number of each order
+        type = "bar", # bar chart
+        orientation = "v" # bars display vertically
+        ) |>
+  layout(
+    title = "Top 10 Most Popular Products", 
+    xaxis = list(title = "Product Name"), 
+    yaxis = list(title = "Number of Orders")
+  )
+```
+
+
+### Plot 2: Order Frequency by Hour of Day (Line Plot)
+```{r line plot}
+orders_by_hour = instacart |>
+  count(order_hour_of_day) # count how many orders occurred per hour (o = midnight, 23 = 11pm)
+
+plot_ly(
+  data = orders_by_hour, 
+  x = ~order_hour_of_day, # x axis is the hour of the day
+  y = ~n, # y axis is the number of orders per hour
+  type = "scatter", 
+  mode = "lines + markers"
+) |>
+  layout(
+    title = "Order Frequency by Hour of Day", 
+    xaxis = list(title = "Hour of Day (0 - 23)"),
+    yaxis = list(title = "Number of Orders")
+  )
+```
+
+### Plot 3: Distribution of Order Hours by Day of Week (Box Plot)
+```{r box plot}
+instacart_box = instacart |>
+  mutate(
+    order_dow = factor(
+      order_dow, # variable representing day of week
+      level = 0:6, # 0 = Sunday, 6 = Saturday
+      labels = 
+        c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+    )
+  )
+
+plot_ly(
+  data = instacart_box, 
+  x = ~order_dow, # x axis is weekday
+  y = ~order_hour_of_day, # y axis = order hour (0-23)
+  type = "box", 
+  color = ~order_dow
+) |>
+  layout(
+    title = "Distribution of Order Hours by Day of Week", 
+    xaxis = list(title = "Day of Week"),
+    yaxis = list(title = "Order Hour (0-23)")
+  )
+```
+
+
