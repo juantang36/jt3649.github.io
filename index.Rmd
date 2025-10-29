@@ -6,7 +6,7 @@ output:
     toc_float: true
     theme: cerulean
 ---
-For this problem, I created a personal academic website hosted at [**https://juantang.github.io**](https://juantang.github.io) The website introduces my academic background, research experience, and professional interests in biostatistics and biotechnology.
+For this problem, I created a personal academic website hosted at [**https://juantang36.github.io/jt3649.github.io/**](https://juantang36.github.io/jt3649.github.io/) The website introduces my academic background, research experience, and professional interests in biostatistics and biotechnology.
 
 ------------------------------------------------------------------------
 
